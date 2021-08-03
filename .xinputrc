@@ -1,0 +1,6 @@
+# im-config(8) generated on Sat, 24 Jul 2021 17:57:01 +0200
+run_im default
+# im-config signature: 5f0aba55c5d46cf5432dd281b3b5b76f  -
+#nanocode config
+#monito orientation
+xrandr -o right
