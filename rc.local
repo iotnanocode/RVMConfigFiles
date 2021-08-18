@@ -2,5 +2,5 @@
 #
 #rc.local
 # this file is exetted on system startup
-sudo /bin/bash /home/nanocode/RVM/startUP.sh
+sudo /bin/bash /home/nanocode/RVM/RVMConfigFiles/startUP.sh
 exit 0

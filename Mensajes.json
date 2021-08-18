@@ -1,0 +1,12 @@
+[{"ID":"67592a79-d548-11eb-b113-00505609fb79", "Descripcion":"Se deslizo una tarjeta", "Server":"TarjetaParticipante", "Client":"", "FK_Sentido":"IN", "Active":1, "descargada":0},
+ {"ID":"67592a79-d548-11eb-b113-00505609fb81", "Descripcion":"Detener scanner principal", "Server":"StopMainScanner", "Client":"LOFF", "FK_Sentido":"MAIN_BAR_OUT", "Active":1, "descargada":0},
+ {"ID":"67592a79-d548-11eb-b113-00505609fb82", "Descripcion":"Iniciar el scanner principal", "Server":"StartMainScanner", "Client":"LON", "FK_Sentido":"MAIN_BAR_OUT", "Active":1, "descargada":0},
+ {"ID":"67592a79-d548-11eb-b113-00505609fb83", "Descripcion":"Detener scanners secundarios", "Server":"StopSecondScanner", "Client":"LOFF", "FK_Sentido":"SECOND_BAR_OUT", "Active":1, "descargada":0},
+ {"ID":"67592a79-d548-11eb-b113-00505609fb84", "Descripcion":"Iniciar escaners secundarios", "Server":"StartSecondScanner", "Client":"LON", "FK_Sentido":"SECOND_BAR_OUT", "Active":1, "descargada":0},
+ {"ID":"67592a79-d548-11eb-b113-00505609fb85", "Descripcion":"Detener scanner de tarjetas", "Server":"StopCardScanner", "Client":"LOFF", "FK_Sentido":"CARD_BAR_OUT", "Active":1, "descargada":0},
+ {"ID":"67592a79-d548-11eb-b113-00505609fb86", "Descripcion":"Iniciar escaners de tarjetas", "Server":"StartCardScanner", "Client":"LON", "FK_Sentido":"CARD_BAR_OUT", "Active":1, "descargada":0},
+ {"ID":"a7f7b1d0-d54b-11eb-b113-00505609fb78", "Descripcion":"UPC leido por lector de codigos de barras", "Server":"UPC", "Client":"L", "FK_Sentido":"IN", "Active":1, "descargada":0},
+ {"ID":"67592a79-d548-11eb-b113-00505609fb87", "Descripcion":"Control de motor Forward", "Server":"EngineForward", "Client":"M1", "FK_Sentido":"PC_PLC", "Active":1, "descargada":1},
+ {"ID":"67592a79-d548-11eb-b113-00505609fb88", "Descripcion":"Control de motor Backward", "Server":"EngineBackward", "Client":"M2", "FK_Sentido":"PC_PLC", "Active":1, "descargada":1},
+ {"ID":"67592a79-d548-11eb-b113-00505609fb89", "Descripcion":"Lectura sensor frontal", "Server":"FrontSensor", "Client":"M3", "FK_Sentido":"PLC_PC", "Active":1, "descargada":1},
+ {"ID":"67592a79-d548-11eb-b113-00505609fb90", "Descripcion":"Lectura sensor trasero", "Server":"BackSensor", "Client":"M4", "FK_Sentido":"PLC_PC", "Active":1, "descargada":1}]
