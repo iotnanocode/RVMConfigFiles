@@ -1,0 +1,16 @@
+ID,Descripcion,Server,Client,FK_Sentido,active,descargada,id_maquina
+67592a79-d548-11eb-b113-00505609fb79,"Se deslizo una tarjeta",TarjetaParticipante,T,IN,1,0,NULL
+67592a79-d548-11eb-b113-00505609fb81,"Detener scanner principal",StopMainScanner,"LOFF
+",MAIN_BAR_OUT,1,0,NULL
+67592a79-d548-11eb-b113-00505609fb82,"Iniciar el scanner principal",StartMainScanner,"LON
+",MAIN_BAR_OUT,1,0,NULL
+67592a79-d548-11eb-b113-00505609fb83,"Detener scanners secundarios",StopSecondScanner,LOFF,SECOND_BAR_OUT,1,0,NULL
+67592a79-d548-11eb-b113-00505609fb84,"Iniciar escaners secundarios",StartSecondScanner,LON,SECOND_BAR_OUT,1,0,NULL
+67592a79-d548-11eb-b113-00505609fb85,"Detener scanner de tarjetas",StopCardScanner,LOFF,CARD_BAR_OUT,1,0,NULL
+67592a79-d548-11eb-b113-00505609fb86,"Iniciar escaners de tarjetas",StartCardScanner,LON,CARD_BAR_OUT,1,0,NULL
+a7f7b1d0-d54b-11eb-b113-00505609fb78,"UPC leido por lector de codigos de barras",UPC,L,IN,1,0,NULL
+67592a79-d548-11eb-b113-00505609fb87,"Control de motor Forward",EngineForward,M1,PC_PLC,1,1,NULL
+67592a79-d548-11eb-b113-00505609fb88,"Control de motor Backward",EngineBackward,M2,PC_PLC,1,1,NULL
+67592a79-d548-11eb-b113-00505609fb89,"Lectura sensor frontal",FrontSensor,M3,PLC_PC,1,1,NULL
+67592a79-d548-11eb-b113-00505609fb90,"Lectura sensor trasero",BackSensor,M4,PLC_PC,1,1,NULL
+67592a79-d548-11eb-b113-00505609fb91,"Envase valido",ValidBottle,M5,PC_PLC,1,NULL,NULL

@@ -1,0 +1,4 @@
+[Desktop Entry]
+
+Name = init
+Exec = mono /home/nanocode/RVM/PLCParser/RVM.PlcParser.exe

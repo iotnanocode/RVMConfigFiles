@@ -1,0 +1,4 @@
+[Desktop Entry]
+
+Name = init5
+Exec = mono /home/nanocode/RVM/SerialParser/RVM.SerialParser.exe

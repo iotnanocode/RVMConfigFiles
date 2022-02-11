@@ -1,0 +1,12 @@
+1.- revisar procesos
+	ps -aux|grep RVM
+2.- matar cada uno los procesos RVM
+	sudo kill [numero de proceso]
+3.- iniciar el SerialParser
+	sudo mono /home/nanocode/RVM/SerialParser/dll/serialunix/SerialParser/RVM.SerialParser.exe
+4.- inciar PLCParser
+	abrir una nueva terminal
+	mono /home/nanocode/RVM/RVMFrontDotNet/RVM.PlcParser/bin/Debug/RVM.PlcParser.exe
+5.- Iniciar front end
+	abrir una nueva terminal
+	mono /home/nanocode/RVM/Frontend/RVM.exe

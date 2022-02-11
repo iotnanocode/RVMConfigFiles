@@ -1,0 +1,4 @@
+[Desktop Entry]
+
+Name = init3
+Exec = mono /home/nanocode/RVM/Updater/RVM.RemoteUpdate.exe
