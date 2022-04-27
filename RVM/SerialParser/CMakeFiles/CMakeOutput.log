@@ -1,0 +1,1606 @@
+The system is: Linux - 5.11.0-41-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/nanocode/RVM/SerialParser/CMakeFiles/3.18.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/nanocode/RVM/SerialParser/CMakeFiles/3.18.4/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f5a21/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5a21.dir/build.make CMakeFiles/cmTC_f5a21.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.3.0-1ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (Ubuntu 10.3.0-1ubuntu1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccAD4XyW.s
+GNU C17 (Ubuntu 10.3.0-1ubuntu1) version 10.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/10/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 10.3.0-1ubuntu1) version 10.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 58794417508a053c2d813aa212cbee7e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o /tmp/ccAD4XyW.s
+GNU assembler version 2.36.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.36.1
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_f5a21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5a21.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o -o cmTC_f5a21 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.3.0-1ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (Ubuntu 10.3.0-1ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f5a21' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqOyhml.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f5a21 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f5a21' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/10/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/10/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_f5a21/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5a21.dir/build.make CMakeFiles/cmTC_f5a21.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.3.0-1ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.0 (Ubuntu 10.3.0-1ubuntu1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccAD4XyW.s]
+  ignore line: [GNU C17 (Ubuntu 10.3.0-1ubuntu1) version 10.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 10.3.0-1ubuntu1) version 10.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 58794417508a053c2d813aa212cbee7e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o /tmp/ccAD4XyW.s]
+  ignore line: [GNU assembler version 2.36.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.36.1]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_f5a21]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5a21.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o -o cmTC_f5a21 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.3.0-1ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.0 (Ubuntu 10.3.0-1ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f5a21' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqOyhml.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f5a21 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqOyhml.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f5a21] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
+    arg [CMakeFiles/cmTC_f5a21.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10] ==> [/usr/lib/gcc/x86_64-linux-gnu/10]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/10;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ec82f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec82f.dir/build.make CMakeFiles/cmTC_ec82f.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.3.0-1ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (Ubuntu 10.3.0-1ubuntu1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc5CRDqV.s
+GNU C++14 (Ubuntu 10.3.0-1ubuntu1) version 10.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/10"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/10
+ /usr/include/x86_64-linux-gnu/c++/10
+ /usr/include/c++/10/backward
+ /usr/lib/gcc/x86_64-linux-gnu/10/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 10.3.0-1ubuntu1) version 10.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 118e824ee50d24f402f1f2e0e1ebfb12
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc5CRDqV.s
+GNU assembler version 2.36.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.36.1
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_ec82f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec82f.dir/link.txt --verbose=1
+/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ec82f 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.3.0-1ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (Ubuntu 10.3.0-1ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ec82f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cclLhjNu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ec82f /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ec82f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/10]
+    add: [/usr/include/x86_64-linux-gnu/c++/10]
+    add: [/usr/include/c++/10/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/10] ==> [/usr/include/c++/10]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/10] ==> [/usr/include/x86_64-linux-gnu/c++/10]
+  collapse include dir [/usr/include/c++/10/backward] ==> [/usr/include/c++/10/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/10/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/10;/usr/include/x86_64-linux-gnu/c++/10;/usr/include/c++/10/backward;/usr/lib/gcc/x86_64-linux-gnu/10/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_ec82f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec82f.dir/build.make CMakeFiles/cmTC_ec82f.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.3.0-1ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.0 (Ubuntu 10.3.0-1ubuntu1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc5CRDqV.s]
+  ignore line: [GNU C++14 (Ubuntu 10.3.0-1ubuntu1) version 10.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/10"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/10]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/10]
+  ignore line: [ /usr/include/c++/10/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 10.3.0-1ubuntu1) version 10.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 118e824ee50d24f402f1f2e0e1ebfb12]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc5CRDqV.s]
+  ignore line: [GNU assembler version 2.36.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.36.1]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_ec82f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec82f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ec82f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.3.0-1ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-gDeRY6/gcc-10-10.3.0/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.0 (Ubuntu 10.3.0-1ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ec82f' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cclLhjNu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ec82f /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cclLhjNu.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ec82f] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
+    arg [CMakeFiles/cmTC_ec82f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10] ==> [/usr/lib/gcc/x86_64-linux-gnu/10]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/10;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the B0 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b6f32/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6f32.dir/build.make CMakeFiles/cmTC_b6f32.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6f32.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b6f32.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b6f32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6f32.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b6f32.dir/CheckSymbolExists.c.o -o cmTC_b6f32 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B0
+  return ((int*)(&B0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B50 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_74356/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74356.dir/build.make CMakeFiles/cmTC_74356.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74356.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_74356.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_74356
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74356.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_74356.dir/CheckSymbolExists.c.o -o cmTC_74356 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B50
+  return ((int*)(&B50))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B75 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2e993/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e993.dir/build.make CMakeFiles/cmTC_2e993.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e993.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2e993.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2e993
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e993.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_2e993.dir/CheckSymbolExists.c.o -o cmTC_2e993 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B75
+  return ((int*)(&B75))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B110 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d96e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d96e8.dir/build.make CMakeFiles/cmTC_d96e8.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d96e8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d96e8.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d96e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d96e8.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_d96e8.dir/CheckSymbolExists.c.o -o cmTC_d96e8 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B110
+  return ((int*)(&B110))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B134 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5067e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5067e.dir/build.make CMakeFiles/cmTC_5067e.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5067e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5067e.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5067e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5067e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_5067e.dir/CheckSymbolExists.c.o -o cmTC_5067e 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B134
+  return ((int*)(&B134))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B150 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2c63f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2c63f.dir/build.make CMakeFiles/cmTC_2c63f.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c63f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2c63f.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2c63f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c63f.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_2c63f.dir/CheckSymbolExists.c.o -o cmTC_2c63f 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B150
+  return ((int*)(&B150))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B200 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_62de2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_62de2.dir/build.make CMakeFiles/cmTC_62de2.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62de2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_62de2.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_62de2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62de2.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_62de2.dir/CheckSymbolExists.c.o -o cmTC_62de2 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B200
+  return ((int*)(&B200))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B300 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c91b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c91b1.dir/build.make CMakeFiles/cmTC_c91b1.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c91b1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c91b1.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c91b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c91b1.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c91b1.dir/CheckSymbolExists.c.o -o cmTC_c91b1 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B300
+  return ((int*)(&B300))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B600 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_80df6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80df6.dir/build.make CMakeFiles/cmTC_80df6.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80df6.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_80df6.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_80df6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80df6.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_80df6.dir/CheckSymbolExists.c.o -o cmTC_80df6 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B600
+  return ((int*)(&B600))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B1200 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2ff53/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2ff53.dir/build.make CMakeFiles/cmTC_2ff53.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ff53.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2ff53.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2ff53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ff53.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_2ff53.dir/CheckSymbolExists.c.o -o cmTC_2ff53 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B1200
+  return ((int*)(&B1200))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B1800 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_daa22/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_daa22.dir/build.make CMakeFiles/cmTC_daa22.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_daa22.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_daa22.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_daa22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daa22.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_daa22.dir/CheckSymbolExists.c.o -o cmTC_daa22 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B1800
+  return ((int*)(&B1800))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B2400 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_406ea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_406ea.dir/build.make CMakeFiles/cmTC_406ea.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_406ea.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_406ea.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_406ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_406ea.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_406ea.dir/CheckSymbolExists.c.o -o cmTC_406ea 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B2400
+  return ((int*)(&B2400))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B4800 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d0326/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d0326.dir/build.make CMakeFiles/cmTC_d0326.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0326.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d0326.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d0326
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0326.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_d0326.dir/CheckSymbolExists.c.o -o cmTC_d0326 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B4800
+  return ((int*)(&B4800))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B9600 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9272c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9272c.dir/build.make CMakeFiles/cmTC_9272c.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9272c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9272c.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9272c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9272c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_9272c.dir/CheckSymbolExists.c.o -o cmTC_9272c 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B9600
+  return ((int*)(&B9600))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B19200 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_85875/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85875.dir/build.make CMakeFiles/cmTC_85875.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85875.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_85875.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_85875
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85875.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_85875.dir/CheckSymbolExists.c.o -o cmTC_85875 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B19200
+  return ((int*)(&B19200))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B38400 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_39701/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_39701.dir/build.make CMakeFiles/cmTC_39701.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39701.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_39701.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_39701
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39701.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_39701.dir/CheckSymbolExists.c.o -o cmTC_39701 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B38400
+  return ((int*)(&B38400))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B57600 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0f7ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0f7ac.dir/build.make CMakeFiles/cmTC_0f7ac.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f7ac.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0f7ac.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0f7ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f7ac.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_0f7ac.dir/CheckSymbolExists.c.o -o cmTC_0f7ac 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B57600
+  return ((int*)(&B57600))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B115200 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7f40c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7f40c.dir/build.make CMakeFiles/cmTC_7f40c.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f40c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7f40c.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7f40c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f40c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7f40c.dir/CheckSymbolExists.c.o -o cmTC_7f40c 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B115200
+  return ((int*)(&B115200))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B230400 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e2632/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2632.dir/build.make CMakeFiles/cmTC_e2632.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2632.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e2632.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e2632
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2632.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e2632.dir/CheckSymbolExists.c.o -o cmTC_e2632 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B230400
+  return ((int*)(&B230400))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B460800 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bd6ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd6ae.dir/build.make CMakeFiles/cmTC_bd6ae.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd6ae.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bd6ae.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bd6ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd6ae.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_bd6ae.dir/CheckSymbolExists.c.o -o cmTC_bd6ae 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B460800
+  return ((int*)(&B460800))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B500000 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e7772/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7772.dir/build.make CMakeFiles/cmTC_e7772.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7772.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e7772.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e7772
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7772.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e7772.dir/CheckSymbolExists.c.o -o cmTC_e7772 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B500000
+  return ((int*)(&B500000))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B576000 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_968a8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_968a8.dir/build.make CMakeFiles/cmTC_968a8.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_968a8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_968a8.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_968a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_968a8.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_968a8.dir/CheckSymbolExists.c.o -o cmTC_968a8 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B576000
+  return ((int*)(&B576000))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B921600 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a63c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a63c5.dir/build.make CMakeFiles/cmTC_a63c5.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a63c5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a63c5.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a63c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a63c5.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a63c5.dir/CheckSymbolExists.c.o -o cmTC_a63c5 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B921600
+  return ((int*)(&B921600))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B1000000 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7031b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7031b.dir/build.make CMakeFiles/cmTC_7031b.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7031b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7031b.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7031b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7031b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7031b.dir/CheckSymbolExists.c.o -o cmTC_7031b 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B1000000
+  return ((int*)(&B1000000))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B1152000 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_359e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_359e2.dir/build.make CMakeFiles/cmTC_359e2.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_359e2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_359e2.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_359e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_359e2.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_359e2.dir/CheckSymbolExists.c.o -o cmTC_359e2 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B1152000
+  return ((int*)(&B1152000))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B1500000 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d8f58/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8f58.dir/build.make CMakeFiles/cmTC_d8f58.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8f58.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d8f58.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d8f58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8f58.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_d8f58.dir/CheckSymbolExists.c.o -o cmTC_d8f58 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B1500000
+  return ((int*)(&B1500000))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B2000000 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e9d0b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9d0b.dir/build.make CMakeFiles/cmTC_e9d0b.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9d0b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e9d0b.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e9d0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9d0b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e9d0b.dir/CheckSymbolExists.c.o -o cmTC_e9d0b 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B2000000
+  return ((int*)(&B2000000))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B2500000 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_09e21/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_09e21.dir/build.make CMakeFiles/cmTC_09e21.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09e21.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_09e21.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_09e21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09e21.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_09e21.dir/CheckSymbolExists.c.o -o cmTC_09e21 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B2500000
+  return ((int*)(&B2500000))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B3000000 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f5ddf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5ddf.dir/build.make CMakeFiles/cmTC_f5ddf.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5ddf.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f5ddf.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f5ddf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5ddf.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f5ddf.dir/CheckSymbolExists.c.o -o cmTC_f5ddf 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B3000000
+  return ((int*)(&B3000000))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B3500000 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_26011/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26011.dir/build.make CMakeFiles/cmTC_26011.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26011.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_26011.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_26011
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26011.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_26011.dir/CheckSymbolExists.c.o -o cmTC_26011 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B3500000
+  return ((int*)(&B3500000))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B4000000 exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b9226/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b9226.dir/build.make CMakeFiles/cmTC_b9226.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9226.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b9226.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b9226
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9226.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b9226.dir/CheckSymbolExists.c.o -o cmTC_b9226 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B4000000
+  return ((int*)(&B4000000))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CMSPAR exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4c6a8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4c6a8.dir/build.make CMakeFiles/cmTC_4c6a8.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c6a8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4c6a8.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4c6a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c6a8.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_4c6a8.dir/CheckSymbolExists.c.o -o cmTC_4c6a8 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CMSPAR
+  return ((int*)(&CMSPAR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the TIOCSBRK exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_96a35/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_96a35.dir/build.make CMakeFiles/cmTC_96a35.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96a35.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_96a35.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_96a35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96a35.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_96a35.dir/CheckSymbolExists.c.o -o cmTC_96a35 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCSBRK
+  return ((int*)(&TIOCSBRK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the TIOCCBRK exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c19f2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c19f2.dir/build.make CMakeFiles/cmTC_c19f2.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c19f2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c19f2.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c19f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c19f2.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c19f2.dir/CheckSymbolExists.c.o -o cmTC_c19f2 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCCBRK
+  return ((int*)(&TIOCCBRK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the TIOCINQ exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0deb5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0deb5.dir/build.make CMakeFiles/cmTC_0deb5.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0deb5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0deb5.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0deb5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0deb5.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_0deb5.dir/CheckSymbolExists.c.o -o cmTC_0deb5 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCINQ
+  return ((int*)(&TIOCINQ))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FIONREAD exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ce334/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ce334.dir/build.make CMakeFiles/cmTC_ce334.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce334.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ce334.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ce334
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce334.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_ce334.dir/CheckSymbolExists.c.o -o cmTC_ce334 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONREAD
+  return ((int*)(&FIONREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the TIOCOUTQ exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7cb1a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7cb1a.dir/build.make CMakeFiles/cmTC_7cb1a.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cb1a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7cb1a.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7cb1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cb1a.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7cb1a.dir/CheckSymbolExists.c.o -o cmTC_7cb1a 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCOUTQ
+  return ((int*)(&TIOCOUTQ))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the TIOCNXCL exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_91394/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91394.dir/build.make CMakeFiles/cmTC_91394.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91394.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_91394.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_91394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91394.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_91394.dir/CheckSymbolExists.c.o -o cmTC_91394 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCNXCL
+  return ((int*)(&TIOCNXCL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the TIOCEXCL exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_202be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_202be.dir/build.make CMakeFiles/cmTC_202be.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_202be.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_202be.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_202be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_202be.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_202be.dir/CheckSymbolExists.c.o -o cmTC_202be 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCEXCL
+  return ((int*)(&TIOCEXCL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the TIOCGICOUNT exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fc142/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fc142.dir/build.make CMakeFiles/cmTC_fc142.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc142.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fc142.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fc142
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc142.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_fc142.dir/CheckSymbolExists.c.o -o cmTC_fc142 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCGICOUNT
+  return ((int*)(&TIOCGICOUNT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the TIOCMIWAIT exist passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8dd03/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8dd03.dir/build.make CMakeFiles/cmTC_8dd03.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8dd03.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8dd03.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8dd03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dd03.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_8dd03.dir/CheckSymbolExists.c.o -o cmTC_8dd03 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCMIWAIT
+  return ((int*)(&TIOCMIWAIT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_19efd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19efd.dir/build.make CMakeFiles/cmTC_19efd.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19efd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_19efd.dir/CheckIncludeFile.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_19efd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19efd.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_19efd.dir/CheckIncludeFile.c.o -o cmTC_19efd 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_64975/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_64975.dir/build.make CMakeFiles/cmTC_64975.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64975.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_64975.dir/CheckIncludeFile.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_64975
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64975.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_64975.dir/CheckIncludeFile.c.o -o cmTC_64975 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ed636/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ed636.dir/build.make CMakeFiles/cmTC_ed636.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed636.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ed636.dir/CheckIncludeFile.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ed636
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed636.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_ed636.dir/CheckIncludeFile.c.o -o cmTC_ed636 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of struct serial_icounter_struct passed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5592d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5592d.dir/build.make CMakeFiles/cmTC_5592d.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5592d.dir/HAVE_LINUX_SERIAL_ICOUNTER_STRUCT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5592d.dir/HAVE_LINUX_SERIAL_ICOUNTER_STRUCT.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CheckTypeSize/HAVE_LINUX_SERIAL_ICOUNTER_STRUCT.c
+Linking C executable cmTC_5592d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5592d.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_5592d.dir/HAVE_LINUX_SERIAL_ICOUNTER_STRUCT.c.o -o cmTC_5592d 
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+
+
+

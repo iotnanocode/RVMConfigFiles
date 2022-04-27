@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/icount.dir/icount.c.o -o icount 

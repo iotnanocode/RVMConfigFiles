@@ -1,0 +1,224 @@
+Determining if the B14400 exist failed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5f004/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f004.dir/build.make CMakeFiles/cmTC_5f004.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f004.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5f004.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘B14400’ undeclared (first use in this function); did you mean ‘B1200’?
+    8 |   return ((int*)(&B14400))[argc];
+      |                   ^~~~~~
+      |                   B1200
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_5f004.dir/build.make:85: CMakeFiles/cmTC_5f004.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_5f004/fast] Error 2
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B14400
+  return ((int*)(&B14400))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B33600 exist failed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d6c77/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d6c77.dir/build.make CMakeFiles/cmTC_d6c77.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6c77.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d6c77.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘B33600’ undeclared (first use in this function); did you mean ‘B9600’?
+    8 |   return ((int*)(&B33600))[argc];
+      |                   ^~~~~~
+      |                   B9600
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_d6c77.dir/build.make:85: CMakeFiles/cmTC_d6c77.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_d6c77/fast] Error 2
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B33600
+  return ((int*)(&B33600))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B76800 exist failed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c9c63/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9c63.dir/build.make CMakeFiles/cmTC_c9c63.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9c63.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c9c63.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘B76800’ undeclared (first use in this function); did you mean ‘B9600’?
+    8 |   return ((int*)(&B76800))[argc];
+      |                   ^~~~~~
+      |                   B9600
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_c9c63.dir/build.make:85: CMakeFiles/cmTC_c9c63.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_c9c63/fast] Error 2
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B76800
+  return ((int*)(&B76800))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B128000 exist failed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_26259/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26259.dir/build.make CMakeFiles/cmTC_26259.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26259.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_26259.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘B128000’ undeclared (first use in this function); did you mean ‘B1200’?
+    8 |   return ((int*)(&B128000))[argc];
+      |                   ^~~~~~~
+      |                   B1200
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_26259.dir/build.make:85: CMakeFiles/cmTC_26259.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_26259/fast] Error 2
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B128000
+  return ((int*)(&B128000))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B153600 exist failed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_81d07/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81d07.dir/build.make CMakeFiles/cmTC_81d07.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81d07.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_81d07.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘B153600’ undeclared (first use in this function); did you mean ‘B57600’?
+    8 |   return ((int*)(&B153600))[argc];
+      |                   ^~~~~~~
+      |                   B57600
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_81d07.dir/build.make:85: CMakeFiles/cmTC_81d07.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_81d07/fast] Error 2
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B153600
+  return ((int*)(&B153600))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B256000 exist failed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d8ad8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8ad8.dir/build.make CMakeFiles/cmTC_d8ad8.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8ad8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d8ad8.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘B256000’ undeclared (first use in this function); did you mean ‘B2500000’?
+    8 |   return ((int*)(&B256000))[argc];
+      |                   ^~~~~~~
+      |                   B2500000
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_d8ad8.dir/build.make:85: CMakeFiles/cmTC_d8ad8.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_d8ad8/fast] Error 2
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B256000
+  return ((int*)(&B256000))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the B307200 exist failed with the following output:
+Change Dir: /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1a482/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1a482.dir/build.make CMakeFiles/cmTC_1a482.dir/build
+gmake[1]: Entering directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a482.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1a482.dir/CheckSymbolExists.c.o -c /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘B307200’ undeclared (first use in this function); did you mean ‘B1200’?
+    8 |   return ((int*)(&B307200))[argc];
+      |                   ^~~~~~~
+      |                   B1200
+/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_1a482.dir/build.make:85: CMakeFiles/cmTC_1a482.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_1a482/fast] Error 2
+
+
+File /home/nanocode/RVM/SerialParser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <termios.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef B307200
+  return ((int*)(&B307200))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
